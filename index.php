@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
 
     <!-- Countdown CSS -->
-    <link rel="stylesheet" href="assets/css/simplyCountdown.theme.default.css?v=">
+    <link rel="stylesheet" href="assets/css/simplyCountdown.theme.default.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/index.css?v=">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
