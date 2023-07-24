@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Wedding of Asi Kurniasi & Lukman</title>
+    <title>The Wedding of Asi & Lukman</title>
 
     <!-- Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -24,7 +24,7 @@
         <main>
             <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
 
-            <h1>Asi Kurniasi & Lukman</h1>
+            <h1>Asi & Lukman</h1>
             <p>Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
             <p>Yang akan melakukan resepsi pernikahan dalam :</p>
 
@@ -36,7 +36,7 @@
         </main>
     </section>
 
-    <section>
+    <section id="undangan" class="undangan">
         <h1>Hello World</h1>
     </section>
 
