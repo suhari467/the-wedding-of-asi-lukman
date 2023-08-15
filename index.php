@@ -313,6 +313,7 @@
 
     <!-- Fix Overflow Offcanvas -->
     <script>
+        const stickyTop = document.querySelector('.sticky-top');
         const offcanvas = document.querySelector('.offcanvas');
 
         offcanvas.addEventListener('show.bs.offcanvas', function(){
