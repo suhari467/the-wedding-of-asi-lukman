@@ -176,6 +176,114 @@
         </div>
     </section>
     <!-- End Section Info -->
+    
+    <!-- Section Story -->
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Bagaimana cinta kami bersemi</span>
+                    <h2>Cerita Kami</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea officiis necessitatibus reprehenderit repellat magni tempora!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background-image: url(assets/img/dummy.jpg);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertama Bertemu</h3>
+                                    <span>1 Juni 2022</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid culpa, voluptatibus quos repudiandae similique.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/id/101/160/160);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mulai Serius</h3>
+                                    <span>1 Desember 2022</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facilis qui minima quae nulla perspiciatis, magni velit perferendis adipisci.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/id/102/160/160);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertunangan</h3>
+                                    <span>1 Januari 2023</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facilis qui minima quae nulla perspiciatis, magni velit perferendis adipisci.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Story -->
+    
+    <!-- Section Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori Kisah Kami</span>
+                    <h2>Galeri Foto</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea officiis necessitatibus reprehenderit repellat magni tempora!</p>
+                </div>
+            </div>
+
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                <div class="col mt-3">
+                    <a href="assets/img/gallery/1.jpg" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/1.jpg" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/151/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="https://picsum.photos/id/151/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/152/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="https://picsum.photos/id/152/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/153/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="https://picsum.photos/id/153/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/154/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="https://picsum.photos/id/154/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/155/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
+                        <img src="https://picsum.photos/id/155/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/156/1200/768">
+                        <img src="https://picsum.photos/id/156/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Gallery -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -183,6 +291,10 @@
     <!-- Countdown JS -->
     <script src="assets/js/simplyCountdown.min.js"></script>
 
+    <!-- Lightbox Bootstraps -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- SimplyCountdown Setting -->
     <script>
         simplyCountdown('.simply-countdown', {
             year: 2023, // required
@@ -196,6 +308,19 @@
                 minutes: { singular: 'Menit', plural: 'Menit' },
                 seconds: { singular: 'Detik', plural: 'Detik' }
             }
+        });
+    </script>
+
+    <!-- Fix Overflow Offcanvas -->
+    <script>
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function(){
+            stickyTop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+            stickyTop.style.overflow = 'hidden';
         });
     </script>
 </body>
