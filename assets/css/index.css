@@ -493,6 +493,10 @@ body {
         width: 140px;
         height: 140px;
     }
+
+    .offcanvas.offcanvas-top {
+        max-height: 100vh!important;
+    }
 }
 
 /* Mobile */
