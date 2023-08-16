@@ -315,6 +315,8 @@
     <script>
         const stickyTop = document.querySelector('.sticky-top');
         const offcanvas = document.querySelector('.offcanvas');
+        const navbarNav = document.querySelector('.navbar-nav');
+        const bsOffcanvas = new bootstrap.Offcanvas('#offcanvasNavbar');
 
         offcanvas.addEventListener('show.bs.offcanvas', function(){
             stickyTop.style.overflow = 'visible';
@@ -323,6 +325,13 @@
         offcanvas.addEventListener('hidden.bs.offcanvas', function(){
             stickyTop.style.overflow = 'hidden';
         });
+
+        navbarNav.addEventListener('click', function(){
+            setTimeout(function(){
+                stickyTop.style.overflow = 'hidden';
+                bsOffcanvas.hide();
+            }, 1000)
+        })
     </script>
 </body>
 </html>
