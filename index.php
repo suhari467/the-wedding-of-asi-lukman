@@ -29,6 +29,7 @@
             <h4 class="fadeInUp">Kepada Bapak/Ibu/Saudara/i, </h4>
 
             <h1 class="fadeInUp">Asi & Lukman</h1>
+            <img src="assets/img/hero.jpg" alt="hero_image" class="fadeInUp">
             <p class="fadeInUp">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
             <p class="fadeInUp">Yang akan melakukan resepsi pernikahan dalam :</p>
 
@@ -42,7 +43,7 @@
     <!-- End Section Hero -->
 
     <!-- Section Navbar -->
-    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar fadeInUp">
         <div class="container">
             <a class="navbar-brand" href="#">Asi & Lukman</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -81,11 +82,11 @@
 
             <div class="row couple">
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-8 text-end">
                             <h3>Lukman Hasan, S.T</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt pariatur totam quidem, ad reprehenderit.</p>
-                            <p>Putra ke-3 dari Bpk. Edi <br> dan <br> Ibu Sriani (Aan)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, animi.</p>
+                            <p class="family">Putra ke-3 dari Bpk. Edi <br> dan <br> Ibu Sriani (Aan)</p>
                         </div>
                         <div class="col-4">
                             <img src="assets/img/lukman.jpg" alt="Lukman" class="img-responsive rounded-circle">
@@ -96,14 +97,14 @@
                 <span class="heart"><i class="bi bi-suit-heart-fill"></i></span>
 
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-4">
                             <img src="assets/img/asi.jpg" alt="Asi Kurniasi" class="img-responsive rounded-circle">
                         </div>
                         <div class="col-8">
                             <h3>Asi Kurniasi</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt pariatur totam quidem, ad reprehenderit.</p>
-                            <p>Putri Ke-2 dari Bpk. Rustandar (Kandar) <br> dan <br> Ibu Murini (Rini)</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, veniam.</p>
+                            <p class="family">Putri Ke-2 dari Bpk. Rustandar (Kandar) <br> dan <br> Ibu Murini (Rini)</p>
                         </div>
                     </div>
                 </div>
@@ -184,18 +185,18 @@
                 <div class="col-md-8 col-10 text-center">
                     <span>Bagaimana cinta kami bersemi</span>
                     <h2>Cerita Kami</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea officiis necessitatibus reprehenderit repellat magni tempora!</p>
+                    <p>Dalam rahasia takdir yang telah terukir, kami akhirnya berjumpa dan merajut asa, semoga ini bisa sampai menuju surga-Nya</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image" style="background-image: url(assets/img/dummy.jpg);"></div>
+                            <div class="timeline-image" style="background-image: url(assets/img/1_pertemuan.jpeg);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Pertama Bertemu</h3>
-                                    <span>1 Juni 2022</span>
+                                    <span>30 Mei 2022</span>
                                 </div>
                                 <div class="timeline-body">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid culpa, voluptatibus quos repudiandae similique.</p>
@@ -203,11 +204,11 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image" style="background-image: url(https://picsum.photos/id/101/160/160);"></div>
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/id/7/160/160);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Mulai Serius</h3>
-                                    <span>1 Desember 2022</span>
+                                    <span>1 November 2022</span>
                                 </div>
                                 <div class="timeline-body">
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facilis qui minima quae nulla perspiciatis, magni velit perferendis adipisci.</p>
@@ -215,11 +216,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="timeline-image" style="background-image: url(https://picsum.photos/id/102/160/160);"></div>
+                            <div class="timeline-image" style="background-image: url(assets/img/3_pertunangan.jpg);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Pertunangan</h3>
-                                    <span>1 Januari 2023</span>
+                                    <span>11 Desember 2022</span>
                                 </div>
                                 <div class="timeline-body">
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facilis qui minima quae nulla perspiciatis, magni velit perferendis adipisci.</p>
@@ -244,40 +245,55 @@
                 </div>
             </div>
 
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center">
                 <div class="col mt-3">
-                    <a href="assets/img/gallery/1.jpg" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="assets/img/gallery/thumbnails/1.jpg" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/1.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/1.jpg" alt="Gallery1" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/151/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="https://picsum.photos/id/151/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/2.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/2.jpg" alt="Gallery2" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/152/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="https://picsum.photos/id/152/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/3.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/3.jpg" alt="Gallery3" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/153/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="https://picsum.photos/id/153/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/4.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/4.jpg" alt="Gallery4" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/154/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="https://picsum.photos/id/154/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/5.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/5.jpg" alt="Gallery5" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/155/1200/768" data-toggle="lightbox" data-caption="Contoh caption" data-gallery="myGallery">
-                        <img src="https://picsum.photos/id/155/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/6.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/6.jpg" alt="Gallery6" class="img-fluid w-100 rounded">
                     </a>
                 </div>
                 <div class="col mt-3">
-                    <a href="https://picsum.photos/id/156/1200/768">
-                        <img src="https://picsum.photos/id/156/300/415" alt="Contoh-Gambar" class="img-fluid w-100 rounded">
+                    <a href="assets/img/gallery/7.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/7.jpg" alt="Gallery7" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="assets/img/gallery/8.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/8.jpg" alt="Gallery8" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="assets/img/gallery/9.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/9.jpg" alt="Gallery9" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="assets/img/gallery/10.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
+                        <img src="assets/img/gallery/thumbnails/10.jpg" alt="Gallery10" class="img-fluid w-100 rounded">
                     </a>
                 </div>
             </div>
@@ -332,6 +348,27 @@
                 bsOffcanvas.hide();
             }, 1000)
         })
+    </script>
+
+    <!-- Add Effect Scroll -->
+    <script>
+        function fade() {
+            var fade = document.querySelectorAll(".fade");
+
+            for (var i = 0; i < fade.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = fade[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                fade[i].classList.add("fadeInUp");
+                } else {
+                fade[i].classList.remove("fadeInUp");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", fade);
     </script>
 </body>
 </html>
