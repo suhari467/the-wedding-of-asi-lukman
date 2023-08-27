@@ -392,6 +392,93 @@ body {
 }
 /* End Gallery CSS */
 
+/* RSVP CSS */
+.rsvp {
+    background-color: #B6C8E0;
+    color: black;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    min-height: 100vh;
+}
+
+.rsvp h2 {
+    color: var(--blue);
+    font-family: 'Rouge Script';
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.rsvp p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.rsvp button {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+    box-shadow: var(--shadow);
+}
+
+.rsvp button:hover {
+    background-color: white;
+    color: var(--blue);
+    border: 1px solid white;
+}
+/* End RSVP CSS */
+
+/* Gifts CSS */
+.gifts {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.gifts span {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.gifts h2 {
+    color: var(--blue);
+    font-family: 'Rouge Script';
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.gifts p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+/* End Gifts CSS */
+
+/* Footer CSS */
+footer {
+    padding: 3rem;
+    background-color: var(--blue);
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--bg);
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
+/* End Footer CSS */
+
 /* Custom CSS Animation */
 .goyang-3 img {
     animation-name: goyang1;
@@ -574,5 +661,9 @@ body {
 
     .timeline li .timeline-panel::after {
         top: 36px
+    }
+
+    .rsvp form {
+        padding: 30px 30px 0 30px;
     }
 }

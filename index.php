@@ -37,7 +37,7 @@
 
             </div>
 
-            <a href="#home" class="btn btn-lg mt-4 fadeInUp">Lihat Undangan</a>
+            <a href="#home" class="btn btn-lg mt-4 fadeInUp" onClick="enableScroll()">Lihat Undangan</a>
         </main>
     </section>
     <!-- End Section Hero -->
@@ -61,7 +61,7 @@
                     <a class="nav-link" href="#story">Story</a>
                     <a class="nav-link" href="#gallery">Gallery</a>
                     <a class="nav-link" href="#rsvp">RSVP</a>
-                    <a class="nav-link" href="#gift">Gift</a>
+                    <a class="nav-link" href="#gifts">Gifts</a>
                 </div>
             </div>
             </div>
@@ -301,6 +301,93 @@
     </section>
     <!-- End Section Gallery -->
 
+    <!-- Section RSVP -->
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
+                </div>
+            </div>
+            <form id="form-rsvp" class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycby5O-__ZQqHIRNMxrBu6qfVeEALV9kxANUHhfiaWkiRFV6DiaVCF8HqNb9v4tdUS9yz/exec">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12" style="margin-top: 35px;">
+                    <button class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- End Section RSVP -->
+
+    <!-- Section GIFTS -->
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Ungkapan tanda kasih</span>
+                    <h2>Kirim Hadiah</h2>
+                    <p>Kirim hadiah terbaik anda untuk kedua mempelai.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center px-3">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-bold">BCA</div>
+                            <img src="assets/img/Logo-BCA.png" alt="Logo BCA" class="img-thumbnail" width="200">
+                            <p class="fw-bold mt-2">1341871579 - Asi Kurniasi</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section GIFTS -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="d-block"> &copy; 2023 The Wedding of Retech ID. All Rights Reserved.</small>
+                    <small class="d-block"> Design by <a href="https://instagram.com/suhari378" target="_blank"> Suhari378 </a></small>
+
+                    <ul class="mt-3">
+                        <li><a href="https://instagram.com/retechid" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://youtube.com/@retechid" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/suhari378" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="https://facebook.com/suhari.nephaztcirebon" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://tiktok.com/@suhari19xix" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     
@@ -369,6 +456,50 @@
         }
 
         window.addEventListener("scroll", fade);
+    </script>
+
+    <!-- Locking Hero -->
+    <script>
+        const rootElement = document.querySelector(":root");
+
+        function disableScroll(){
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function() {
+                window.scrollTo(scrollTop, scrollLeft);
+            }
+
+            rootElement.style.scrollBehavior = 'auto';
+        }
+
+        function enableScroll(){
+            window.onscroll = function() {}
+            rootElement.style.scrollBehavior = 'smooth';
+            localStorage.setItem('opened', 'true');
+        }
+
+        if(!localStorage.getItem('opened')){
+            disableScroll();
+        }
+    </script>
+
+    <script>
+        window.addEventListener("load", function() {
+            const form = document.getElementById('form-rsvp');
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+                    const data = new FormData(form);
+                    const action = e.target.action;
+                    fetch(action, {
+                        method: 'POST',
+                        body: data,
+                    })
+                    .then(() => {
+                        alert("Konfirmasi Kehadiran Berhasil Terkirim");
+                    })
+            });
+        });
     </script>
 </body>
 </html>
