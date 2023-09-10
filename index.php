@@ -26,7 +26,7 @@
     <!-- Section Hero -->
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
-            <h4 class="fadeInUp">Kepada Bapak/Ibu/Saudara/i, </h4>
+            <h4 class="fadeInUp">Kepada Bapak/Ibu/Saudara/i, <span style="display: block; margin-top: 1rem;"></span></h4>
 
             <h1 class="fadeInUp">Asi & Lukman</h1>
             <img src="assets/img/hero.jpg" alt="hero_image" class="fadeInUp">
@@ -85,7 +85,7 @@
                     <div class="row align-items-center">
                         <div class="col-8 text-end">
                             <h3>Lukman Hasan, S.T</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, animi.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, animi.</p> -->
                             <p class="family">Putra ke-3 dari Bpk. Edi <br> dan <br> Ibu Sriani (Aan)</p>
                         </div>
                         <div class="col-4">
@@ -103,7 +103,7 @@
                         </div>
                         <div class="col-8">
                             <h3>Asi Kurniasi</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, veniam.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, veniam.</p> -->
                             <p class="family">Putri Ke-2 dari Bpk. Rustandar (Kandar) <br> dan <br> Ibu Murini (Rini)</p>
                         </div>
                     </div>
@@ -122,6 +122,7 @@
                     <p class="alamat">
                         Alamat: Bertempat di kediaman mempelai wanita <br> Dusun I Blok Tenggeran, Ds.Suci, No. 8 RT/RW 02/01, Suci, Kec. Mundu, Kabupaten Cirebon
                     </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.1303566252177!2d108.5831018!3d-6.7539533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1d62d53ad7f5%3A0x5160383e5b3c34ed!2sTape%20Ketan%20Ma&#39;%20Nini!5e0!3m2!1sid!2sid!4v1694346994131!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <a href="https://maps.app.goo.gl/TA4vowQGTSoqdVbQ9" target="_blank" class="btn btn-light btn-sm my-3"> Klik untuk membuka peta</a>
                     <p class="description">
                         Merupakan suatu kehormatan dan kebahagian bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa dan restu kepada kami.
@@ -241,7 +242,7 @@
                 <div class="col-md-8 col-10 text-center">
                     <span>Memori Kisah Kami</span>
                     <h2>Galeri Foto</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea officiis necessitatibus reprehenderit repellat magni tempora!</p>
+                    <p>Moment kebersamaan kami dalam menyambut masa depan, mohon doa restu dan dukungan kepada kami.</p>
                 </div>
             </div>
 
@@ -337,6 +338,12 @@
                     <button class="btn btn-primary">Kirim</button>
                 </div>
             </form>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6">
+                    <div id="disqus_thread" class="disqus"></div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- End Section RSVP -->
@@ -387,6 +394,18 @@
         </div>
     </footer>
     <!-- End Footer -->
+
+    <!-- Audio Section -->
+    <div id="audio-container" class="audio-container">
+        <audio id="bgm" autoplay loop>
+            <source src="assets/audio/JVKE_Golden_Hour.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="audio-icon-wrapper rotating" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+    <!-- End Audio Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -461,6 +480,10 @@
     <!-- Locking Hero -->
     <script>
         const rootElement = document.querySelector(":root");
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i');
+        const bgm = document.querySelector('#bgm');
+        let isPlaying = false;
 
         function disableScroll(){
             scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -476,12 +499,38 @@
         function enableScroll(){
             window.onscroll = function() {}
             rootElement.style.scrollBehavior = 'smooth';
-            localStorage.setItem('opened', 'true');
+            // localStorage.setItem('opened', 'true');
+            playAudio();
         }
 
-        if(!localStorage.getItem('opened')){
-            disableScroll();
+        function playAudio() {
+            audioIconWrapper.style.display = 'flex';
+            bgm.volume = 0.1; //volume 10%
+            bgm.play();
+            isPlaying = true;
         }
+
+        audioIconWrapper.onclick = function() {
+            if(isPlaying) {
+                bgm.pause();
+                audioIcon.classList.remove('bi-disc');
+                audioIcon.classList.add('bi-pause-circle');
+                audioIconWrapper.classList.remove('rotating');
+            }else {
+                bgm.play();
+                audioIcon.classList.remove('bi-pause-circle');
+                audioIcon.classList.add('bi-disc');
+                audioIconWrapper.classList.add('rotating');
+            }
+
+            isPlaying = !isPlaying;
+        }
+
+        // if(!localStorage.getItem('opened')){
+        //     disableScroll();
+        // }
+        
+        disableScroll();
     </script>
 
     <script>
@@ -501,5 +550,28 @@
             });
         });
     </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const to = urlParams.get('to') || '';
+        // console.log(to);
+        const namaContainer = document.querySelector('.hero h4 span');
+        if(!to){
+            namaContainer.style.display = 'none';
+        }
+        namaContainer.innerText = to;
+
+        document.querySelector('#nama').value = to;
+    </script>
+
+    <!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+    <script>
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://the-wedding-of-asi-lukman.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>          
 </body>
 </html>
