@@ -26,18 +26,16 @@
     <!-- Section Hero -->
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
-            <h4 class="fadeInUp">Kepada Bapak/Ibu/Saudara/i, <span style="display: block; margin-top: 1rem;"></span></h4>
+            <h4 class="scrollFade">Kepada Bapak/Ibu/Saudara/i, <span style="display: block; margin-top: 1rem;"></span></h4>
 
-            <h1 class="fadeInUp">Asi & Lukman</h1>
-            <img src="assets/img/hero.jpg" alt="hero_image" class="fadeInUp">
-            <p class="fadeInUp">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
-            <p class="fadeInUp">Yang akan melakukan resepsi pernikahan dalam :</p>
+            <h1 class="scrollFade">Asi & Lukman</h1>
+            <img src="assets/img/hero.jpg" alt="hero_image" class="scrollFade">
+            <p class="scrollFade">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
+            <p class="scrollFade">Yang akan melakukan resepsi pernikahan dalam :</p>
 
-            <div class="simply-countdown fadeInUp">
+            <div class="simply-countdown scrollFade"></div>
 
-            </div>
-
-            <a href="#home" class="btn btn-lg mt-4 fadeInUp" onClick="enableScroll()">Lihat Undangan</a>
+            <a href="#home" class="btn btn-lg mt-4 scrollFade" onClick="enableScroll()">Lihat Undangan</a>
         </main>
     </section>
     <!-- End Section Hero -->
@@ -60,8 +58,8 @@
                     <a class="nav-link" href="#info">Info</a>
                     <a class="nav-link" href="#story">Story</a>
                     <a class="nav-link" href="#gallery">Gallery</a>
-                    <a class="nav-link" href="#rsvp">RSVP</a>
                     <a class="nav-link" href="#gifts">Gifts</a>
+                    <a class="nav-link" href="#rsvp">RSVP</a>
                 </div>
             </div>
             </div>
@@ -74,14 +72,14 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
-                    <h2>Acara Pernikahan</h2>
-                    <h3>Diselenggarakan pada 15 Oktober 2023 di Cirebon, Jawa Barat</h3>
-                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+                    <h2 class="scrollFade">Acara Pernikahan</h2>
+                    <h3 class="scrollFade">Diselenggarakan pada 15 Oktober 2023 di Cirebon, Jawa Barat</h3>
+                    <p class="scrollFade">Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan kami.</p>
                 </div>
             </div>
 
             <div class="row couple">
-                <div class="col-lg-6">
+                <div class="col-lg-6 scrollFade">
                     <div class="row align-items-center">
                         <div class="col-8 text-end">
                             <h3>Lukman Hasan, S.T</h3>
@@ -96,7 +94,7 @@
                 
                 <span class="heart"><i class="bi bi-suit-heart-fill"></i></span>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 scrollFade">
                     <div class="row align-items-center">
                         <div class="col-4">
                             <img src="assets/img/asi.jpg" alt="Asi Kurniasi" class="img-responsive rounded-circle">
@@ -118,20 +116,20 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
-                    <h2>Informasi Acara</h2>
-                    <p class="alamat">
+                    <h2 class="scrollFade">Informasi Acara</h2>
+                    <p class="alamat scrollFade">
                         Alamat: Bertempat di kediaman mempelai wanita <br> Dusun I Blok Tenggeran, Ds.Suci, No. 8 RT/RW 02/01, Suci, Kec. Mundu, Kabupaten Cirebon
                     </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.1303566252177!2d108.5831018!3d-6.7539533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1d62d53ad7f5%3A0x5160383e5b3c34ed!2sTape%20Ketan%20Ma&#39;%20Nini!5e0!3m2!1sid!2sid!4v1694346994131!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <a href="https://maps.app.goo.gl/TA4vowQGTSoqdVbQ9" target="_blank" class="btn btn-light btn-sm my-3"> Klik untuk membuka peta</a>
-                    <p class="description">
+                    <iframe class="scrollFade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.1303566252177!2d108.5831018!3d-6.7539533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1d62d53ad7f5%3A0x5160383e5b3c34ed!2sTape%20Ketan%20Ma&#39;%20Nini!5e0!3m2!1sid!2sid!4v1694346994131!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="https://maps.app.goo.gl/TA4vowQGTSoqdVbQ9" target="_blank" class="btn btn-light btn-sm my-3 scrollFade"> Klik untuk membuka peta</a>
+                    <p class="description scrollFade">
                         Merupakan suatu kehormatan dan kebahagian bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa dan restu kepada kami.
                     </p>
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="col-md-5 col-10">
-                    <div class="card text-center text-bg-light mb-5">
+                    <div class="card text-center text-bg-light mb-5 scrollFade">
                         <div class="card-header">
                             Akad Nikah
                         </div>
@@ -153,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-10">
-                    <div class="card text-center text-bg-light">
+                    <div class="card text-center text-bg-light scrollFade">
                         <div class="card-header">
                             Resepsi
                         </div>
@@ -184,15 +182,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
-                    <span>Bagaimana cinta kami bersemi</span>
-                    <h2>Cerita Kami</h2>
-                    <p>Dalam rahasia takdir yang telah terukir, kami akhirnya berjumpa dan merajut asa, semoga ini bisa sampai menuju surga-Nya</p>
+                    <span class="scrollFade">Bagaimana cinta kami bersemi</span>
+                    <h2 class="scrollFade">Cerita Kami</h2>
+                    <p class="scrollFade">Dalam rahasia takdir yang telah terukir, kami akhirnya berjumpa dan merajut asa, semoga ini bisa sampai menuju surga-Nya</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <ul class="timeline">
-                        <li>
+                        <li class="scrollFade">
                             <div class="timeline-image" style="background-image: url(assets/img/1_pertemuan.jpeg);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -204,7 +202,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="timeline-inverted scrollFade">
                             <div class="timeline-image" style="background-image: url(https://picsum.photos/id/7/160/160);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -216,7 +214,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="scrollFade">
                             <div class="timeline-image" style="background-image: url(assets/img/3_pertunangan.jpg);"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -240,59 +238,59 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
-                    <span>Memori Kisah Kami</span>
-                    <h2>Galeri Foto</h2>
-                    <p>Moment kebersamaan kami dalam menyambut masa depan, mohon doa restu dan dukungan kepada kami.</p>
+                    <span class="scrollFade">Memori Kisah Kami</span>
+                    <h2 class="scrollFade">Galeri Foto</h2>
+                    <p class="scrollFade">Moment kebersamaan kami dalam menyambut masa depan, mohon doa restu dan dukungan kepada kami.</p>
                 </div>
             </div>
 
             <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center">
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/1.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/1.jpg" alt="Gallery1" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/2.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/2.jpg" alt="Gallery2" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/3.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/3.jpg" alt="Gallery3" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/4.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/4.jpg" alt="Gallery4" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/5.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/5.jpg" alt="Gallery5" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/6.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/6.jpg" alt="Gallery6" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/7.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/7.jpg" alt="Gallery7" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/8.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/8.jpg" alt="Gallery8" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/9.jpg" data-toggle="lightbox" data-caption="Asi Kurniasi" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/9.jpg" alt="Gallery9" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 scrollFade">
                     <a href="assets/img/gallery/10.jpg" data-toggle="lightbox" data-caption="Lukman Hasan" data-gallery="myGallery">
                         <img src="assets/img/gallery/thumbnails/10.jpg" alt="Gallery10" class="img-fluid w-100 rounded">
                     </a>
@@ -302,67 +300,21 @@
     </section>
     <!-- End Section Gallery -->
 
-    <!-- Section RSVP -->
-    <section id="rsvp" class="rsvp">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-10 text-center">
-                    <h2>Konfirmasi Kehadiran</h2>
-                    <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
-                </div>
-            </div>
-            <form id="form-rsvp" class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycby5O-__ZQqHIRNMxrBu6qfVeEALV9kxANUHhfiaWkiRFV6DiaVCF8HqNb9v4tdUS9yz/exec">
-                <div class="col-12">
-                    <div class="mb-3">
-                        <label for="nama" class="form-label">Nama</label>
-                        <input type="text" class="form-control" id="nama" name="nama">
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="mb-3">
-                        <label for="jumlah" class="form-label">Jumlah</label>
-                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="mb-3">
-                        <label for="status" class="form-label">Konfirmasi</label>
-                        <select name="status" id="status" class="form-select">
-                            <option selected>Pilih salah satu</option>
-                            <option value="Hadir">Hadir</option>
-                            <option value="Tidak Hadir">Tidak Hadir</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-12" style="margin-top: 35px;">
-                    <button class="btn btn-primary">Kirim</button>
-                </div>
-            </form>
-
-            <div class="row justify-content-center mt-3">
-                <div class="col-md-6">
-                    <div id="disqus_thread" class="disqus"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section RSVP -->
-
     <!-- Section GIFTS -->
     <section id="gifts" class="gifts">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
-                    <span>Ungkapan tanda kasih</span>
-                    <h2>Kirim Hadiah</h2>
-                    <p>Kirim hadiah terbaik anda untuk kedua mempelai.</p>
+                    <span class="scrollFade">Ungkapan tanda kasih</span>
+                    <h2 class="scrollFade">Kirim Hadiah</h2>
+                    <p class="scrollFade">Kirim hadiah terbaik anda untuk kedua mempelai.</p>
                 </div>
             </div>
 
             <div class="row justify-content-center text-center px-3">
                 <div class="col-md-6">
                     <ul class="list-group">
-                        <li class="list-group-item">
+                        <li class="list-group-item scrollFade">
                             <div class="fw-bold">BCA</div>
                             <img src="assets/img/Logo-BCA.png" alt="Logo BCA" class="img-thumbnail" width="200">
                             <p class="fw-bold mt-2">1341871579 - Asi Kurniasi</p>
@@ -373,6 +325,52 @@
         </div>
     </section>
     <!-- End Section GIFTS -->
+
+    <!-- Section RSVP -->
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2 class="scrollFade">Konfirmasi Kehadiran</h2>
+                    <p class="scrollFade">Isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
+                </div>
+            </div>
+            <form id="form-rsvp" class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycby5O-__ZQqHIRNMxrBu6qfVeEALV9kxANUHhfiaWkiRFV6DiaVCF8HqNb9v4tdUS9yz/exec">
+                <div class="col-12 scrollFade">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
+                </div>
+                <div class="col-12 scrollFade">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+                    </div>
+                </div>
+                <div class="col-12 scrollFade">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 scrollFade" style="margin-top: 35px;">
+                    <button class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-6 scrollFade">
+                    <div id="disqus_thread" class="disqus"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section RSVP -->
 
     <!-- Footer -->
     <footer>
@@ -533,6 +531,7 @@
         disableScroll();
     </script>
 
+    <!-- Konfirmasi Kehadiran Script -->
     <script>
         window.addEventListener("load", function() {
             const form = document.getElementById('form-rsvp');
@@ -551,6 +550,7 @@
         });
     </script>
 
+    <!-- Get Parameter URL -->
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const to = urlParams.get('to') || '';
@@ -565,6 +565,7 @@
     </script>
 
     <!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+    <!-- Disqus Javascript -->
     <script>
         (function() {
             var d = document, s = d.createElement('script');
@@ -572,6 +573,46 @@
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
         })();
-    </script>          
+    </script>
+    
+    <!-- Animation Fadein Javascript -->
+    <script>
+        const fadeElements = document.getElementsByClassName('scrollFade');
+
+        const scrollFade = () => {
+            const viewportBottom = window.scrollY + window.innerHeight;
+
+            for (let index = 0; index < fadeElements.length; index++) {
+                const element = fadeElements[index];
+                const rect = element.getBoundingClientRect();
+
+                const elementFourth = rect.height/4;
+                const fadeInPoint = window.innerHeight - elementFourth;
+                const fadeOutPoint = -(rect.height/2);
+
+                if (rect.top <= fadeInPoint) {
+                    element.classList.add('scrollFade--visible');
+                    element.classList.add('scrollFade--animate');
+                    element.classList.remove('scrollFade--hidden');
+                } else {
+                    element.classList.remove('scrollFade--visible');
+                    element.classList.remove('scrollFade--animate');
+                    element.classList.add('scrollFade--hidden');
+                }
+
+                if (rect.top <= fadeOutPoint) {
+                    element.classList.remove('scrollFade--visible');
+                    element.classList.remove('scrollFade--animate');
+                    element.classList.add('scrollFade--hidden');
+                }
+            }
+        }
+
+        document.addEventListener('scroll', scrollFade);
+        window.addEventListener('resize', scrollFade);
+        document.addEventListener('DOMContentLoaded', () => {
+            scrollFade();
+        });
+    </script>
 </body>
 </html>
